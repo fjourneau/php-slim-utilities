@@ -17,7 +17,7 @@ Add in composer.json :
         }
     ],
     "require": {
-        "fjourneau/utilities": "dev-master"
+        "fjourneau/SlimUtilities": "dev-master"
     }
 }   
 ````
@@ -31,4 +31,12 @@ If not mentionned, add :
 
 
 Then run ``composer install`` or ``composer update``.
+
+## Classes available
+
+````php
+use fjourneau\SlimUtilities\FjoSlimContainerUtilities; 
+use fjourneau\SlimUtilities\EloquentLightPaginator; 
+use fjourneau\SlimUtilities\SlimTestCase; 
+````
 
