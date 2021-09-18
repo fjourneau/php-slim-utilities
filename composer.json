@@ -1,0 +1,27 @@
+{
+    "name": "fjourneau/utilities",
+    "description": "Useful functions for PHP Slim applications",
+    "keywords": [
+        "fjourneau", "functions", "Slim", "Slim 3"
+    ],
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Florian JOURNEAU",
+            "email": "florian.journeau@gmail.com",
+            "homepage": "https://www.fjourneau.net/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fjourneau\\SlimUtilities\\": "src/"
+         }
+    },
+    "scripts": {
+        "phpdoc": "php phpdoc.phar -d ./src -t ./phpdoc"
+    }    
+
+}
