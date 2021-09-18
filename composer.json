@@ -1,5 +1,5 @@
 {
-    "name": "fjourneau/utilities",
+    "name": "fjourneau/slim-utilities",
     "description": "Useful functions for PHP Slim applications",
     "keywords": [
         "fjourneau", "functions", "Slim", "Slim 3"

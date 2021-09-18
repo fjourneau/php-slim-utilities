@@ -17,7 +17,7 @@ Add in composer.json :
         }
     ],
     "require": {
-        "fjourneau/SlimUtilities": "dev-master"
+        "fjourneau/slim-utilities": "dev-master"
     }
 }   
 ````
