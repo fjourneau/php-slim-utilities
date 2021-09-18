@@ -23,6 +23,19 @@ class FjoSlimContainerUtilities
         return $this->container->get($name);
     }
 
+
+    /**
+     * Affiche la vue Twig
+     * @param Response $response
+     * @param string Fichier.tiwg - Vue à afficher
+     * @param array Paramètres (variables) à passer à la vue
+     */
+    public function render(Response $response, $file, $params = [])
+    {
+        $this->view->render($response, $file, $params);
+    }    
+
+
     /**
      * Redirection utilisant les noms de route définis.
      * 
